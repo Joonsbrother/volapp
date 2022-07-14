@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Volunteer App",
+    "slug": "volapp",
+    "description": "Volunteering Support App",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.0",
+    "orientation": "default",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/icon.png",
+    "splash": {
+      "image": "./assets/icons/loading.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.volapp"
+    }
+  }
+}
